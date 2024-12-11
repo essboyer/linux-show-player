@@ -151,7 +151,7 @@
   <context>
     <name>CueCategory</name>
     <message>
-      <location filename="../../../plugins/gst_backend/gst_backend.py" line="80" />
+      <location filename="../../../plugins/gst_backend/gst_backend.py" line="87" />
       <source>Media cues</source>
       <translation type="unfinished" />
     </message>
@@ -190,12 +190,17 @@
   <context>
     <name>GstBackend</name>
     <message>
-      <location filename="../../../plugins/gst_backend/gst_backend.py" line="78" />
+      <location filename="../../../plugins/gst_backend/gst_backend.py" line="79" />
       <source>Audio cue (from file)</source>
       <translation type="unfinished" />
     </message>
     <message>
-      <location filename="../../../plugins/gst_backend/gst_backend.py" line="131" />
+      <location filename="../../../plugins/gst_backend/gst_backend.py" line="85" />
+      <source>Video cue (from file)</source>
+      <translation type="unfinished" />
+    </message>
+    <message>
+      <location filename="../../../plugins/gst_backend/gst_backend.py" line="148" />
       <source>Select media files</source>
       <translation type="unfinished" />
     </message>
@@ -203,7 +208,7 @@
   <context>
     <name>GstMediaError</name>
     <message>
-      <location filename="../../../plugins/gst_backend/gst_media.py" line="254" />
+      <location filename="../../../plugins/gst_backend/gst_media.py" line="255" />
       <source>Cannot create pipeline element: "{}"</source>
       <translation type="unfinished" />
     </message>
@@ -219,7 +224,7 @@
   <context>
     <name>GstMediaWarning</name>
     <message>
-      <location filename="../../../plugins/gst_backend/gst_media.py" line="248" />
+      <location filename="../../../plugins/gst_backend/gst_media.py" line="249" />
       <source>Invalid pipeline element: "{}"</source>
       <translation type="unfinished" />
     </message>
@@ -381,11 +386,19 @@
       <translation>Volume</translation>
     </message>
     <message>
+      <location filename="../../../plugins/gst_backend/elements/volume.py" line="35" />
+      <source>Volume</source>
+      <translation>Volume</translation>
+    </message>
+    <message>
       <location filename="../../../plugins/gst_backend/elements/speed.py" line="29" />
       <source>Speed</source>
       <translation>Speed</translation>
     </message>
     <message>
+      <location filename="../../../plugins/gst_backend/elements/equalizer10.py" line="29" />
+      <source>10 Bands Equalizer</source>
+      <translation>10 Bands Equalizer</translation>
       <location filename="../../../plugins/gst_backend/elements/equalizer10.py" line="29" />
       <source>10 Bands Equalizer</source>
       <translation>10 Bands Equalizer</translation>
@@ -461,6 +474,11 @@
       <translation>System Out</translation>
     </message>
     <message>
+      <location filename="../../../plugins/gst_backend/elements/auto_sink.py" line="28" />
+      <source>System Out</source>
+      <translation>System Out</translation>
+    </message>
+    <message>
       <location filename="../../../plugins/gst_backend/elements/preset_src.py" line="30" />
       <source>Preset Input</source>
       <translation>Preset Input</translation>
@@ -495,6 +513,11 @@
       <translation type="unfinished" />
     </message>
     <message>
+      <location filename="../../../plugins/gst_backend/gst_settings.py" line="27" />
+      <source>GStreamer</source>
+      <translation type="unfinished" />
+    </message>
+    <message>
       <location filename="../../../plugins/gst_backend/gst_media_settings.py" line="36" />
       <source>Media Settings</source>
       <translation>Media Settings</translation>
@@ -517,40 +540,48 @@
     <name>UriInputSettings</name>
     <message>
       <location filename="../../../plugins/gst_backend/settings/uri_input.py" line="85" />
+      <location filename="../../../plugins/gst_backend/settings/uri_input.py" line="85" />
       <source>Source</source>
       <translation>Source</translation>
     </message>
     <message>
+      <location filename="../../../plugins/gst_backend/settings/uri_input.py" line="86" />
       <location filename="../../../plugins/gst_backend/settings/uri_input.py" line="86" />
       <source>Find File</source>
       <translation>Find File</translation>
     </message>
     <message>
       <location filename="../../../plugins/gst_backend/settings/uri_input.py" line="87" />
+      <location filename="../../../plugins/gst_backend/settings/uri_input.py" line="87" />
       <source>Buffering</source>
       <translation>Buffering</translation>
     </message>
     <message>
+      <location filename="../../../plugins/gst_backend/settings/uri_input.py" line="89" />
       <location filename="../../../plugins/gst_backend/settings/uri_input.py" line="89" />
       <source>Use Buffering</source>
       <translation>Use Buffering</translation>
     </message>
     <message>
       <location filename="../../../plugins/gst_backend/settings/uri_input.py" line="92" />
+      <location filename="../../../plugins/gst_backend/settings/uri_input.py" line="92" />
       <source>Attempt download on network streams</source>
       <translation>Attempt download on network streams</translation>
     </message>
     <message>
+      <location filename="../../../plugins/gst_backend/settings/uri_input.py" line="95" />
       <location filename="../../../plugins/gst_backend/settings/uri_input.py" line="95" />
       <source>Buffer size (-1 default value)</source>
       <translation>Buffer size (-1 default value)</translation>
     </message>
     <message>
       <location filename="../../../plugins/gst_backend/settings/uri_input.py" line="132" />
+      <location filename="../../../plugins/gst_backend/settings/uri_input.py" line="132" />
       <source>Choose file</source>
       <translation>Choose file</translation>
     </message>
     <message>
+      <location filename="../../../plugins/gst_backend/settings/uri_input.py" line="134" />
       <location filename="../../../plugins/gst_backend/settings/uri_input.py" line="134" />
       <source>All files</source>
       <translation>All files</translation>
@@ -570,6 +601,14 @@
     </message>
   </context>
   <context>
+    <name>VideoPlayerSettings</name>
+    <message>
+      <location filename="../../../plugins/gst_backend/settings/wayland_sink.py" line="79" />
+      <source>Fullscreen</source>
+      <translation type="unfinished" />
+    </message>
+  </context>
+  <context>
     <name>VolumeSettings</name>
     <message>
       <location filename="../../../plugins/gst_backend/settings/volume.py" line="87" />
@@ -585,6 +624,19 @@
       <location filename="../../../plugins/gst_backend/settings/volume.py" line="92" />
       <source>Reset</source>
       <translation>Reset</translation>
+    </message>
+  </context>
+  <context>
+    <name>WaylandSinkSettings</name>
+    <message>
+      <location filename="../../../plugins/gst_backend/settings/wayland_sink.py" line="70" />
+      <source>Video device</source>
+      <translation type="unfinished" />
+    </message>
+    <message>
+      <location filename="../../../plugins/gst_backend/settings/wayland_sink.py" line="72" />
+      <source>To make your custom PCM objects appear correctly in this list requires adding a 'hint.description' line to them.</source>
+      <translation type="unfinished" />
     </message>
   </context>
 </TS>
